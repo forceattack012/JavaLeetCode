@@ -23,7 +23,7 @@ public class KeyboardRow {
             char[] wordArray = copyWord.toCharArray();
             
             for(String row: keyboardRows){
-                if(row.indexOf(wordArray[0]) != -1 && checkWordArrayEachRow(wordArray, row)) {
+                if(row.indexOf(wordArray[0]) != -1) {
                     if(checkWordArrayEachRow(wordArray, row)) {
                        ans.add(word);   
                     }
