@@ -30,4 +30,15 @@ public class ConcatenationOfArrayTest {
         assertArrayEquals(expect, result);
     }
     
+    @Test
+    public void testGetConcatenationCase2() {
+        int [] nums = {1,3,2,1};
+        int[] expect = {1,3,2,1,1,3,2,1};
+        
+        ConcatenationOfArray con = new ConcatenationOfArray();
+        int[] result = con.getConcatenationNormal(nums);
+        
+        assertArrayEquals(expect, result);
+    }
+    
 }

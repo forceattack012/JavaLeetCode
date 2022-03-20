@@ -18,7 +18,7 @@ public class ConcatenationOfArray {
         int[] ans = new int[2*nums.length];
         int k = 0;
         
-        for(int i=0; i<ans.length; i++){
+        for(int i=0; i < 2; i++){
             for(int j=0; j<nums.length && k < ans.length; j++){
                 ans[k] = nums[j];
                 k++;
